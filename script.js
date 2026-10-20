@@ -105,12 +105,16 @@ if (notaescola >= 7) {
 }
 
 //atividade2
-let numero1 = 7
+let numero1 = 8
 let numero2 = 8
 
 if(numero1 > numero2){
-    console.log(numero1 maior que numero2)
-}else if(numero1)
+    console.log("numero1 maior que numero2")
+}else if(numero1 < numero2){
+    console.log("numero1 menor que numero2 ")
+}else {
+    console.log("empate")
+}
 
 
 //atividade3
@@ -133,17 +137,101 @@ if(temperatura <18) {
 
 //atividade5
 
+let classificacao =4
+if(classificacao >9){ 
+    console.log("excelente!")
+}else if (classificacao >7){
+    console.log("bom")
+}else if ( classificacao <5){
+    console.log("insuficiente")
+}else (classificacao >5)
+    console.log("regular")
+
+
+
+//atividade6
+
+let semana = 3
+if(semana  ==1){
+    console.log("domingo")
+}else if  (semana ==2){
+    console.log("segunda-feira")
+}else if (semana ==3){
+    console.log("terça-feira")
+}else if (semana ==4){
+    console.log("quarta-feira")
+}else if (semana ==5){
+    console.log("quinta-ferira")
+}else if (semana ==6){
+    console.log("sexta-feira")
+}else{
+    console.log("sabado")
+}
 
 
 
 
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+if(idadeDirigir >=18 && temCNH == true && temCarro == true){
+    console.log("você pode dirigir!")
+}else{
+    console.log("você não pode dirigir")
+}
 
 
+let ehprofessor = false
+let ehaluno = false
+
+if(ehprofessor == true || ehaluno == true){
+    console.log("você não tem direito a meia-entrada!")
+}else{ console.log("você não tem direito a meia-entrada")
+}
+
+//&& = e
+//|| = ou
+
+// Número dentro do intervalo
+let intervalo = 52;
+
+if(intervalo > 10 && intervalo < 50){ 
+    console.log("dentro do intervalo")
+}else{
+    console.log("fora do intervalo")
+}
+
+//Elegibilidade para estágio
+let estagio = 17
+
+if( estagio>15 && estagio <25 ){
+    console.log("sua idade atende ao requisito")
+}else{
+    console.log("sua idade não atende ao requisito")
+}
 
 
+//Frete grátis
+let valorCompra = 152;
+let ehassinante = true;
 
+if(valorCompra >= 200 || ehassinante == true){
+    console.log("você tem direito a frete grátis")
+}else{
+    console.log("você não tem direito a frete grátis")
+}
 
+//Dia de descanso
+let diasemana =2
+ if(diasemana ==2){
+    console.log("segunda-feira, dia útil")
+ } else if (diasemana ==3){
+    console.log("terça-feira, dia útil ")
+ } else if(diasemana ==4){
+    console.log("quarta-feira,dia útil")
+ }else if (diasemana ==5){
+    console.log("quinta-feira, dia útil")
+ }
 
-
-
-
+// Promoção especial
