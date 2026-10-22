@@ -223,15 +223,15 @@ if(valorCompra >= 200 || ehassinante == true){
 }
 
 //Dia de descanso
-let diasemana =2
- if(diasemana ==2){
-    console.log("segunda-feira, dia útil")
- } else if (diasemana ==3){
-    console.log("terça-feira, dia útil ")
- } else if(diasemana ==4){
-    console.log("quarta-feira,dia útil")
- }else if (diasemana ==5){
-    console.log("quinta-feira, dia útil")
- }
+
+let diasemana = domingo
+ if(diasemana == sábado){
+    console.log("fim de semana")
+ } else if (diasemana == domingo){
+    console.log("fim de semana")
+ } else {
+    console.log("dia útil")
+}
+
 
 // Promoção especial
